@@ -1,0 +1,87 @@
+<!--Possibile TEI di trascrizione ventunesimo canto del poemetto Profughi, letto d Francesco Tadini-->
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+					<title>Profughi</title>
+					<author xml:id="ET" ref="http://viaf.org/viaf/96275786">Tadini, Emilio, 1927-2002</author>
+				<respStmt xml:id="GL">
+					<resp>Trascrizione dalla versione cartacea</resp>
+					<name>Giulia Lamera</name>
+					<date>2026</date>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher ref="#GL"/>
+				<pubPlace ref="https://geonames.org/3181928">Bologna</pubPlace>
+				<availability type="restricted">
+					<p>non esistono precedenti versioni digitali, la presente è a puro scopo didattico, non finalizzata alla pubblicazione</p>
+				</availability>
+				<date>2026</date>
+			</publicationStmt>	
+			<sourceDesc>
+				<bibl type="contained">
+					<title>Profughi, XXI</title>
+					<relatedItem type="container">
+						<bibl>
+							<author ref="#ET"/>
+							<title>L'insieme delle cose</title>
+							<edition>prima edizione</edition>
+							<imprint>
+								  <publisher>Garzanti</publisher>
+								  <pubPlace>Milano</pubPlace>
+								  <date>1991</date>
+								  <biblScope>p. 115</biblScope>
+							</imprint>
+						</bibl>	
+					 </relatedItem>
+				</bibl>	 
+			</sourceDesc>		
+		</fileDesc>		
+	</teiHeader>
+	
+	<text>
+		<front></front>
+		<body>
+			<lg type="poem">
+				<lg type="stanza">
+					<l>Cenerentola che non piange, l'ultimo Canto,</l>
+					<l> - il Ventunesimo - rimasto</l>
+					<l> tutto solo in cucina ad ascoltare</l>
+					<l> accanto al fuoco il borbottio (sirena!)</l> 
+					<l>di qualcosa che bolle, ci chiede:</l>
+					<l>"Cos'è che tiene insieme e fa che non si perda oltre confine</l>
+					<l> questo cosmo di pasta e di verdura,</l> 
+					<l>questo battesimo di acqua e olio, roteante?</l>
+					<l>O è qualcosa che non si vede? O è la pentola e basta?</l>
+				</lg>
+				<lg type="stanza">
+					<l>Cantano, risospinte, le cipolle,</l> 
+					<l>- è così che cantano le figlie del sole,</l> 
+					<l>occhi rotondi, occhi d'oro, nel chiuso di una stanza -</l> 
+					<l>e le patate e le carote cantano, dal fondo</l> 
+					<l>di vortici bui arancio, e dalle conchiglie esce un suono,</l> 
+					<l>stridono, ancora, prima di convincersi</l> 
+					<l>anche loro, alla prova</l> 
+					<l>della danza. Assomiglia,</l> 
+					<l>questo mondo, se è un mondo,</l> 
+					<l>al fuoco che lo muove.</l> 
+				</lg>
+				<lg type="stanza">
+				<lg type="stanza">	
+					<l>Il Ventunesimo - il Canto del Cuoco - </l> 
+					<l>ha visto abbastanza, ride.</l> 
+					<l>Ridono anche gli altri Canti, con lui.</l> 
+					<l>Piova, sull'arido.</l> 
+				</lg>
+			</lg>
+		</body>
+		<back></back>
+	</text>
+<!--collegare il dipinto e il URL YouTube con la lettura-->	
+	<facsimile></facsimile>
+</TEI>
+
+ 
