@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:dcterms="http://purl.org/dc/terms/">
+
+<dc:title>Insomnia night</dc:title>
+<dc:creator>Emilio Tadini</dc:creator>
+<dc:creator xsi:type="dcterms:URI">http://viaf.org/viaf/96275786</dc:creator>
+<dc:creator xsi:type="dcterms:ULAN">http://vocab.getty.edu/page/ulan/500082784
+ </dc:creator>
+<dc:subject>Trittico</dc:subject>
+<dc:subject xsi:type="dcterms:AAT">http://vocab.getty.edu/page/aat/300178234</dc:subject>
+<dc:subject>Surrealismo</dc:subject>
+<dc:subject xsi:type="dcterms:AAT">http://vocab.getty.edu/page/aat/300021512</dc:subject>
+<dc:subject>Pittura Metafisica</dc:subject>
+<dc:subject xsi:type="dcterms:AAT">http://vocab.getty.edu/page/aat/300021376</dc:subject
+<dc:description>Uno dei sette trittici della serie Profughi, Insomnia Night rappresenta un caotico sovrapporsi di corpi e oggetti che fluttuano in uno spazio bidimensionale: suonatori, camerieri, strumenti musicali, tavole imbandite pane e vino. Questa congerie di figure si muovono in una festa che, data la ricchezza di simboli e allegorie, dunque le molteplici letture che ne sono scaturite, potrebbe essere non solo gioiosa e spensierata. </dc:description>
+<dc:date>1990</dc:date>
+<dc:type>Dipinto</dc:type>
+<dc:type xsi:type="UDC">75</dc:type>
+<dc:type xsi:type="DCMIType">StillImage</dc:type>
+<dc:format>Acrilico</dc:format>
+<dc:format xsi:type="AAT">http://vocab.getty.edu/page/aat/300014426
+ </dc:format>
+<dcterms:extent>130X160cm</dcterms:extent>
+<dcterms:medium>Tela</dcterms:medium>
+<dcterms:medium xsi:type="AAT"> http://vocab.getty.edu/page/aat/300014078</dcterms:medium>
+<dcterms:isPartOf>Ciclo pittorico "Profughi"</dcterms:isPartOf>
+<dc:source>Spazio Tadini Casa Museo, Milano</dc:source>
+<dc:source xsi:type="dcterms:URI">https://maps.app.goo.gl/TrGwpSGKxaVr1ocR9</dc:source>
+<!--dati della risorsa digitale-->
+<dc:publisher>Spazio Tadini</dc:publisher>
+<dc:publisher xsi:type="dcterms:URI">https://spaziotadini.com/</dc:publisher>
+
+<dc:type>Image/jpeg</dc:type>
+<dc:format>JPEG</dc:format>
+<dc:contributor>Giulia Lamera</dc:contributor>
+<dc:rights>Licenza riservata</dc:rights>
+<dcterms:rightHolder>Eredi della famiglia Tadini</dcterms:rightHolder>
+</metadata>
+

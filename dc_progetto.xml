@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mp:metadata
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:tei="http://www.tei-c.org/ns/1.0">
+<!-- dati dell'oggetto della risorsa fisica -->
+<dc:title>Vita di Voltaire</dc:title>
+<dc:creator>Emilio Tadini</dc:creator>
+<dcterms:creator xsi:type="dcterms:URI">http://viaf.org/viaf/96275786</dcterms:creator>
+<dc:subject>Paesaggio con figure, Pittura metafisica, Pittura surrealista, Pop Art</dc:subject>
+<dc:subject xsi:type="dcterms:AAT">http://vocab.getty.edu/page/aat/300021376</dc:subject>
+<dc:description>Il dipinto del 1968 è molto vicino al linguaggio della Pop Art e l’opera è chiaramente risultato di un assemblaggio “atemporale” di cose, abiti del 700, contemporanei di Voltaire, divise della seconda guerra mondiale degli anni 40, casco da football, oggetti di design come la sedia Tonet n° 14 del 1859 e la lampada Cirene di Vico Magistretti de1960, edifici che evocano le case francesi e dietro tutto ciò l’unico essere vivente presente con il suo corpo: un rinoceronte.Si tratta di un lavoro inserito nel ciclo pittorico Vita di Voltaire. Scriveva a riguardo Tadini: "La vita di Voltaire, questa specie di radice illuminista del mondo, nel secolo dei lumi spenti. Non riesco mai a pensare a una cosa che non sia confrontata con il suo opposto. (...) questa ipertrofica elaborazione della forma che magicamente si risolve nel produrre emozioni. (...). La vita di Voltaire è la possibilità di fare qualche luce su qualche spazio che si dà comunque". In quest'opera tante simbologie e allegorie legate alla luce, alla tecnologia con spunti di riflessione, ai cambiamenti sociali e al pensiero.</dc:description>
+<dc:date>1968</dc:date>
+<dc:type>Quadro</dc:type>
+<dc:format>Acrilico su tela</dc:format>
+<dc:extent>130X160cm</dc:extent>
+<dc:relation xsi:type="isPartOf">il ciclo pittorico "Vita di Voltaire"</dc:relation>
+<dc:source>Spazio Tadini Casa Museo, Milano, Via Niccolò Jommelli, 24</dc:source>
+<dc:source xsi:type="dcterms:URI">https://maps.app.goo.gl/TrGwpSGKxaVr1ocR9</dc:source>
+<!--dati della risorsa digitale-->
+<dc:publisher>Spazio Tadini</dc:publisher>
+<dc:publisher xsi:type="dcterms:URI">https://spaziotadini.com/</dc:publisher>
+<dc:date>2020</dc:date>
+<dc:type>Image</dc:type>
+<dc:format>JPEG</dc:format>
+<dc:contributor>Giulia Lamera</dc:contributor>
+<dc:identifier xsi:type="URI">https://www.museocity.it/opere/2022/vita-di-voltaire</dc:identifier>
+</mp:metadata>
+

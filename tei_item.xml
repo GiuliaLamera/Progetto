@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+					<title>Profughi, XXI</title>
+					<author xml:id="ET" ref="http://viaf.org/viaf/96275786">Tadini, Emilio, 1927-2002</author>
+				<respStmt >
+					<resp>Trascrizione digitale</resp>
+					<name xml:id="GL">Giulia Lamera</name>
+					<date>2026</date>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher ref="#GL"/>
+				<pubPlace ref="https://www.geonames.org/3181928/bologna.html">Bologna</pubPlace>
+				<availability type="restricted">
+					<p>non esistono precedenti versioni digitali, la presente è a puro scopo didattico, non finalizzata alla pubblicazione</p>
+				</availability>
+				<date>2026</date>
+			</publicationStmt>	
+			<sourceDesc>
+				<bibl type="containedBy">
+					<author ref="#ET"/>
+					<title>L'insieme delle cose</title>
+					<edition>prima edizione</edition>
+					<imprint>
+					  <publisher>Garzanti</publisher>	
+						<pubPlace ref="https://www.geonames.org/3173435/milan.html">Milano</pubPlace>
+						<date>1991</date>
+					</imprint>
+					<signed ref="#ET">Emilio Tadini</signed>
+					<place type="collocazione_attuale" ref="https://maps.app.goo.gl/ZduAQ1HbySeLkWfu8">Fondo Sanguineti, Biblioteca Universitaria di Genova</place>
+					<list type="index">
+						<item n="1"></item>
+						<item n="2"></item>
+						<item n="3"></item>
+						<item n="4">Profughi</item>
+					</list>							
+					<biblScope>p.115</biblScope>
+				</bibl>	 
+			</sourceDesc>	
+		</fileDesc>		
+	</teiHeader>
+	<text>
+		<body>
+			<lg type="poem">
+				<lg type="stanza">
+					<l n="1">Cenerentola che non piange, l'ultimo Canto,</l>
+					<l n="2" type="#enj">- il Ventunesimo - rimasto</l>
+					<l n="3" type="#enj">tutto solo in cucina ad <seg type="#pers">ascoltare</seg></l>
+					<l n="4" type="#enj">accanto al fuoco il <seg type="#onom">borbottio</seg> <seg type="#emph">(sirena!)</seg></l>
+					<l n="5">di qualcosa che <seg type="#onom">bolle</seg>, ci <seg type="#pers">chiede</seg>:</l>
+					<l n="6" type="#emph">"Cos'è che tiene insieme e fa che non si perda oltre confine</l>
+					<l n="7" type="#emph">questo cosmo di pasta e di verdura,</l> 
+					<l n="8" type="#emph">questo battesimo di acqua e olio, roteante?</l>
+					<l n="9" type="#emph">O è qualcosa che non si vede? O è la pentola e basta?</l>
+				</lg>
+				<lg type="stanza">
+					<l n="10"> <seg type="#pers">Cantano</seg>, risospinte, le cipolle,</l> 
+					<l n="11">- è così che cantano le figlie del sole,</l> 
+					<l n="12"> occhi rotondi, occhi d'oro, nel chiuso di una stanza -</l> 
+					<l n="13" type="#enj">e le patate e le carote <seg type="#pers">cantano</seg>, dal fondo</l> 
+					<l n="14">di vortici bui arancio, e dalle conchiglie esce un suono,</l> 
+					<l n="15">stridono, ancora, prima di <seg type="#pers">convincersi</seg></l> 
+					<l n="16" type="#enj">anche loro, alla prova</l> 
+					<l n="17">della danza. Assomiglia,</l> 
+					<l n="18">questo mondo, se è un mondo,</l> 
+					<l n="19">al fuoco che lo muove.</l> 
+				</lg>
+				<lg type="stanza">	
+					<l n="20">Il Ventunesimo - il Canto del Cuoco - </l>
+					<l n="21" type="#pers">ha visto abbastanza, ride.</l> 
+					<l n="22" type="#pers">Ridono anche gli altri Canti, con lui.</l> 
+					<l n="23">Piova, sull'arido.</l> 
+				</lg>
+			</lg>
+			<interpGrp resp="#GL" type="espressioni_della_oralità">
+				<interp xml:id="enj">enjambement</interp>
+				<interp xml:id="pers">personificazione</interp>
+				<interp xml:id="emph">enfasi</interp>
+				<interp xml:id="onom">onomatopea</interp>	
+			</interpGrp>
+		</body>
+	</text>	
+</TEI>
+
+ 

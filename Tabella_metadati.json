@@ -1,0 +1,201 @@
+[
+ {
+   "Item": "1",
+   "Tipologia": "Tela",
+   "Titolo": "Saggio sul nazismo ",
+   "Data": "1960",
+   "Tecnica": "Olio su tela" ,
+   "Collocazione": "Collezione privata",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "2",
+   "Tipologia": "Tela",
+   "Titolo": "Vita di Voltaire",
+   "Data": "1967",
+   "Tecnica": "Acrilico su tela" ,
+   "Collocazione": "Spazio Tadini",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "3",
+   "Tipologia": "Tela",
+   "Titolo": "Viaggio in Italia",
+   "Data": "1970",
+   "Tecnica": "Acrilico su tela" ,
+   "Collocazione": "Fondazione Marconi",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "4",
+   "Tipologia": "Tela",
+   "Titolo": "Paesaggio di Malevič",
+   "Data": "1972",
+   "Tecnica": "Acrilico su tela" ,
+   "Collocazione": "Museo della Città - Polo Culturale Bottini dell’Olio",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "5",
+   "Tipologia": "Trittico",
+   "Titolo": "Il ballo dei filosofi",
+   "Data": "1996",
+   "Tecnica": "Acrilico su tela" ,
+   "Collocazione": "Spazio Tadini",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "6",
+   "Tipologia": "Tela",
+   "Titolo": "Profugo",
+   "Data": "1988",
+   "Tecnica": "Acrilico su tela" ,
+   "Collocazione": "Spazio Tadini",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "7",
+   "Tipologia": "Trittico",
+   "Titolo": "Insomnia Night",
+   "Data": "1989",
+   "Tecnica": "Acrilico su tela" ,
+   "Collocazione": "Fondazione Marconi",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "8",
+   "Tipologia": "Trittico",
+   "Titolo": "Fiaba",
+   "Data": "1999",
+   "Tecnica": "Acrilico su tela" ,
+   "Collocazione": "Spazio Tadini",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "9",
+   "Tipologia": "Tela",
+   "Titolo": "Allegoria in memoria di Emilio Lancia e Angelica Riccardi",
+   "Data": "1988",
+   "Tecnica": "Acrilico su tela" ,
+   "Collocazione": "Policlinico di Milano",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "10",
+   "Tipologia": "Saggio",
+   "Titolo": "L'occhio della pittura",
+   "Data": "1995",
+   "Tecnica": "Inchiostro su carta" ,
+   "Collocazione": "Biblioteca Universitaria di Genova [e altre sedi]",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "11",
+   "Tipologia": "Architettura",
+   "Titolo": "Borgotondo",
+   "Data": "1979",
+   "Tecnica": "#" ,
+   "Collocazione": "Mirandola(Modena)",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "12",
+   "Tipologia": "Architettura",
+   "Titolo": "Orologio della Concordia",
+   "Data": "1997",
+   "Tecnica": "#" ,
+   "Collocazione": "Cantieri Culturali alla Zisa (Palermo)",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "13",
+   "Tipologia": "Illustrazione",
+   "Titolo": "Il volo degli uccelli di Italo Calvino",
+   "Data": "1967",
+   "Tecnica": "Inchiostro in bianco e nero[Penna rossa per i bozzetti]" ,
+   "Collocazione": "Collezione privata",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "14",
+   "Tipologia": "Illustrazione",
+   "Titolo": "Paradiso perduto di John Milton",
+   "Data": "1992",
+   "Tecnica": "Matita su carta" ,
+   "Collocazione": "Spazio Tadini",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "15",
+   "Tipologia": "Trittico ",
+   "Titolo": "L'occhio della pittura",
+   "Data": "1978",
+   "Tecnica": "Acrilico su tela" ,
+   "Collocazione": "Collezione privata",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "16",
+   "Tipologia": "Video",
+   "Titolo": "Lezioni d'autore|Emilio Tadini",
+   "Data": "2001",
+   "Tecnica": "Digitale" ,
+   "Collocazione": "Università Telematica Uninettuno",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "17",
+   "Tipologia": "Trittico",
+   "Titolo": "Corridore notturno",
+   "Data": "1989",
+   "Tecnica": "Acrilico su tela" ,
+   "Collocazione": "Fondazione Marconi",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "18",
+   "Tipologia": "Tela",
+   "Titolo": "Archeologia",
+   "Data": "1979",
+   "Tecnica": "Acrilico su tela" ,
+   "Collocazione": "Fondazione Marconi",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "19",
+   "Tipologia": "Tela",
+   "Titolo": "Città italiana",
+   "Data": "1988",
+   "Tecnica": "Acrilico su tela" ,
+   "Collocazione": "Fondazione Marconi",
+   "Immagine": "img1",
+   
+ },
+ {
+   "Item": "20",
+   "Tipologia": "Video",
+   "Titolo": "Emilio Tadini e la pittura del Novecento",
+   "Data": "[data sconosciuta]",
+   "Tecnica": "Digitale" ,
+   "Collocazione": "Teche Rai",
+   "Immagine": "img1",
+   
+ },

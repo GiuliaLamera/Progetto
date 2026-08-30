@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Catalogo | Il profilo pittorico di Emilio Tadini</title>
+		<link rel="stylesheet" type="text/css" href="style/style_progetto_dh.css"/>
+		
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://kit.fontawesome.com/5eca80ebb3.js"></script>
+
+		
+	</head>
+
+<body>
+		<header>
+			<div class="static">Il profilo pittorico di Emilio Tadini | Catalogo</div>
+		</header>
+
+		
+	<!--Navigazione -->
+	<nav>			
+		
+		<li class="home"><a href="index.html" class="button">Homepage</a></li>
+		<li class="home"><a href="catalogo_progetto.html" class="button">Catalogo</a></li>
+		
+		
+		<li class="dropdown">
+		    <a href="#" class="button" style="margin-left: 40px; margin-right: 10px;">Dipinti</a>
+		    <div class="dropdown-content">
+		        <a href="#">Tela</a>
+		        <a href="#">Trittico</a>
+		        <a href="#">Illustrazione</a>
+		        <a href="#">Architettura</a>
+		        <a href="#">Manifesti</a>
+		    </div>
+		</li>		 
+		
+		<li class="home"><a href="#" class="button">Scritti</a></li>
+		<li class="home"><a href="#" class="button">Video</a></li>
+		<li class="home"><a href="#" class="button">Profilo</a></li>
+		
+	</nav>
+
+	<div class="briciole">
+		<ul class="breadcrumb">
+		  <li><a href="#">Homepage</a></li>
+		  <li>Catalogo</li>
+		</ul>
+	</div>	
+
+	 <aside class="col_dx">
+		<h1>Naviga nel catalogo</h1>
+			<h2>Filtra per:</h2>
+				<ul class="aside">
+					<div class="dropdown">
+						<button class="aside">Data</button>
+							<div class="dropdown-content">
+								<label class="container">1940-1950
+								  <input type="checkbox" checked="checked">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">1950-1960
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">1960-1970
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">1970-1980
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">1980-1990
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">1990-2000
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+							</div>	
+				</div>
+				<div class="dropdown">	
+					<button class="aside">Collocazione</button>
+						<div class="dropdown-content">
+								<label class="container">Spazio Tadini
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">Fondazione Marconi
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">Collezione privata
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">[non specificato]
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+						</div>	
+				</div>	
+				
+				<div class="dropdown">			
+					<button class="aside">Corrente pittorica</button>	
+						<div class="dropdown-content">
+								<label class="container">Surrealismo
+								  <input type="checkbox" checked="checked">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">Metafisica
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">Pop Art
+								  <input type="checkbox" checked="checked">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">Suprematismo
+								  <input type="checkbox" checked="checked">
+								  <span class="checkmark"></span>
+								</label>
+						</div>
+				</div>
+				<div class="dropdown">			
+					<button class="aside">Tecnica</button>
+						<div class="dropdown-content">
+								<label class="container">Acrilico su tela
+								  <input type="checkbox" checked="checked">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">Olio su tela
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">Inchiostro su carta
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">Inchiostro bianco e nero
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">Matita rossa
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">Digitale
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+								<label class="container">Stampa
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+								  <label class="container">[Non specificato]
+								  <input type="checkbox">
+								  <span class="checkmark"></span>
+								</label>
+						</div>
+				</div>						
+		</ul>		
+	
+		
+		<h2>Ordina per:</h2>
+			<p>Ordine alfabetico</p>
+			<div class="btn-group">
+			  <button><i class="fa fa-sort-alpha-asc" style="font-size:24px"></i></button>
+			  <button><i class="fa fa-sort-alpha-desc" style="font-size:24px"></i></button>
+			 </div>
+			  
+			<p>Ordine cronologico</p> 
+			<div class="btn-group">
+			  <button>Crescente</button>
+			  <button>Decrescente</button>
+			</div>
+		
+		
+
+									
+</aside>
+
+
+	<div class="contenitore">
+		
+
+		<!--Catalogo con cards -->
+		<div class="cards">	
+			<div class="row">
+			 
+			 	<div class="column">
+					<div class="card">
+				  		<img src="img/Allegoria.jpg" style="width:100%">
+				  		<div>
+				   		<h4><b>Allegoria in memoria di Emilio Lancia e Angelica Riccardi</b></h4>
+				   		<p>Tela, 1988</p>
+				  		</div>
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="card">				
+						<img src="img/occhio1.jpg" style="width:50%;">	
+						<div>
+						<h4><b><a href="item4.html">L'occhio della pittura</a></b></h4>
+						<p>Saggio, 1995</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="card">
+							<img src="img/Borgotondo.jpg" style="width:100%; height:230px">
+						<div>
+						<h4><b>Borgotondo</b></h4>
+						<p>Architettura, 1979</p>
+						</div>
+					</div>
+				</div>
+				  
+				<div class="column">
+			    <div class="card">
+			      <img src="img/Orologio.jpg" style="width: 100%;">
+			      <div>
+			      	<h4><b>Orologio della Concordia</b></h4>
+			      	<p>Architettura, [data sconsciuta]</p>
+			      </div>
+			    </div>
+			</div></div>
+
+			<div class="row" style="margin-top: 50px;">
+
+			
+				<div class="column">
+				    <div class="card">
+				    <img src="img/Bozza_Calvino2.jpg" style="width:100%">
+				    	<div style="text-align:center">
+				    	  <span class="dot"></span>
+				    	  <span class="dot"></span>
+				    	  <span class="dot"></span>
+				    	  <span class="dot"></span>
+				    	</div>
+				      <div>
+				      	<h4><b>Illustrazioni in<br>Il volo degli uccelli da <i>Ti con Zero</i></b></h4>
+			      		<p>Illustrazione, 1967</p>
+				      </div>
+				    </div>
+				</div>
+
+				<div class="column">
+				    <div class="card">
+				      <img src="img/milton.jpg" style="width:50%">
+				      <div style="text-align:center">
+			      		  <span class="dot"></span>
+			      		  <span class="dot"></span>
+			      		  <span class="dot"></span>
+			      		  <span class="dot"></span>
+			      		</div>
+				      <div>
+				      	<h4><b>Illustrazioni in<br>Il paradiso perduto</b></h4>
+			      		<p>Illustrazione, 1992</p>
+				      </div>
+				    </div>
+				</div>
+
+				<div class="column">
+				    <div class="card">
+				      <img src="img/occhio_pittura_zoom.jpg" style="width:100%">
+				      	<div style="text-align:center">
+				    	  <span class="dot"></span>
+				    	  <span class="dot"></span>
+				    	  <span class="dot"></span>
+				    	  <span class="dot"></span>
+				    	</div>
+				      <div>
+				      	<h4><b>L'occhio della pittura</b></h4>
+			      		<p>Tela, 1978</p>
+				      </div>
+				    </div>
+				</div>
+
+				<div class="column">
+				    <div class="card">
+				      <iframe width="280" height="215" src="https://www.youtube.com/embed/sLWRFYFChPo?si=mUBrmJDbGOvp1v_q&amp;start=361" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			      	<div>
+				      	<h4><b><a href="#">Lezioni d'autore|Emilio Tadini"</a></b></h4>
+				      	<p>Video, 2001</p>
+				      </div>
+				    </div>
+				</div>
+			</div>
+
+		</div>	
+
+	</div>
+
+<div>
+	<ul class="pagination">
+	  <li><a href="#">&laquo;</a></li>
+	  <li><a href="catalogo_progetto.html">1</a></li>
+	  <li><a class="active">2</a></li>
+	  <li><a href="catalogo_progetto_p3.html">3</a></li>
+	  <li><a href="#">&raquo;</a></li>
+	</ul>
+</div>
+
+<footer  class="s_boot">
+	
+	<ul style="gap: 40px;">
+			<li><a class="AB" href="#">About</a></li>
+			<li><a class="AB" href="Metadati.html">Dati<i class="fa fa-folder-open-o"></i></a></li>
+			<li><a class="AB" href="">Contatti</a></li>
+			<li><a class="AB" href="">Licenze</a></li>
+	</ul>			
+
+
+			
+</footer>
+
+	<div>		
+		<p style="text-align: center; background-color: white;">© Copyright 2026 by Giulia Lamera</p>
+	</div>
+
+
+
+	</body>
+
+
+</html>	
