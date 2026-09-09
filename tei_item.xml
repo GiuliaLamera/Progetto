@@ -3,84 +3,137 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-					<title>Profughi, XXI</title>
-					<author xml:id="ET" ref="http://viaf.org/viaf/96275786">Tadini, Emilio, 1927-2002</author>
-				<respStmt >
-					<resp>Trascrizione digitale</resp>
-					<name xml:id="GL">Giulia Lamera</name>
-					<date>2026</date>
-				</respStmt>
+				<title>Profughi, <num xml:id="n21" type="roman" value="21">XXI</num>
+				</title>
 			</titleStmt>
+			<extent>298,9 kB</extent>
+			<editionStmt>
+				<respStmt >
+					<resp>Trascrizione digitale ad opera di</resp>
+					<name type="person" xml:id="GL">Giulia Lamera</name>
+					<date>2026-08-24</date>
+				</respStmt>
+			</editionStmt>	
 			<publicationStmt>
 				<publisher ref="#GL"/>
-				<pubPlace ref="https://www.geonames.org/3181928/bologna.html">Bologna</pubPlace>
-				<availability type="restricted">
+				<pubPlace>giulialamera.github.io</pubPlace>
+				<availability status="restricted">
 					<p>non esistono precedenti versioni digitali, la presente è a puro scopo didattico, non finalizzata alla pubblicazione</p>
 				</availability>
-				<date>2026</date>
 			</publicationStmt>	
-			<sourceDesc>
-				<bibl type="containedBy">
-					<author ref="#ET"/>
-					<title>L'insieme delle cose</title>
-					<edition>prima edizione</edition>
-					<imprint>
-					  <publisher>Garzanti</publisher>	
-						<pubPlace ref="https://www.geonames.org/3173435/milan.html">Milano</pubPlace>
-						<date>1991</date>
-					</imprint>
-					<signed ref="#ET">Emilio Tadini</signed>
-					<place type="collocazione_attuale" ref="https://maps.app.goo.gl/ZduAQ1HbySeLkWfu8">Fondo Sanguineti, Biblioteca Universitaria di Genova</place>
-					<list type="index">
-						<item n="1"></item>
-						<item n="2"></item>
-						<item n="3"></item>
-						<item n="4">Profughi</item>
-					</list>							
-					<biblScope>p.115</biblScope>
-				</bibl>	 
+			<sourceDesc> 
+				<biblStruct>
+					<analytic>
+						<author xml:id="ET" ref="http://viaf.org/viaf/96275786">Tadini, Emilio, 1927-2002</author>
+						<title xml:id="P">Profughi</title>
+					</analytic>
+					<monogr>	
+						<title>L'insieme delle cose</title>
+						<edition>prima edizione</edition>
+						<imprint>
+					  		<publisher ref="http://viaf.org/viaf/148937343">Garzanti editore</publisher>	
+							<pubPlace ref="https://www.geonames.org/3173435/milan.html">Milano</pubPlace>
+							<date>1991</date>
+						</imprint>
+					</monogr>
+					<citedRange unit="page">p. 115</citedRange>
+					<note>Risorsa consultata nella Biblioteca universitaria di Genova, facente parte del Magazzino Sanguineti dal 5 aprile 2022</note>
+					<series>
+						<title type="collana">Garzanti Poesia</title>
+					</series>
+				</biblStruct>	
+				<list type="index">
+					<item n="1">Una notte in città</item>
+						<item n="1.1">La luna e i manifesti</item>
+						<item n="1.2">Ottica</item>
+						<item n="1.3">Prima entrata dell'eroe</item>
+						<item n="1.4">Sotterranea</item>
+						<item n="1.5">Seconda entrata dell'eroe</item>
+						<item n="1.6">Sotterranea archeologica</item>
+						<item n="1.7">Uscita</item>
+					<item n="2" ref="#P"/>
+						<item n="2.1">I</item>
+						<item n="2.2">II</item>
+						<item n="2.3">III</item>
+						<item n="2.4">IV</item>
+						<item n="2.5">V</item>
+						<item n="2.6">VI</item>
+						<item n="2.7">VII</item>
+						<item n="2.8">VIII</item>
+						<item n="2.9">IX</item>
+						<item n="2.10">X</item>
+						<item n="2.11">XI</item>
+						<item n="2.12">XII</item>
+						<item n="2.13">XIII</item>
+						<item n="2.14">XIV</item>
+						<item n="2.15">XV</item>
+						<item n="2.16">XVI</item>
+						<item n="2.17">XVII</item>
+						<item n="2.18">XVIII</item>
+						<item n="2.19">XIX</item>
+						<item n="2.20">XX</item>
+						<item xml:id="n21">
+				</list>					
 			</sourceDesc>	
 		</fileDesc>		
 	</teiHeader>
-	<text>
+	<text>	
 		<body>
+			<head>
+				<num ref="#n21">XXI</num>
+			</head>
 			<lg type="poem">
 				<lg type="stanza">
-					<l n="1">Cenerentola che non piange, l'ultimo Canto,</l>
-					<l n="2" type="#enj">- il Ventunesimo - rimasto</l>
-					<l n="3" type="#enj">tutto solo in cucina ad <seg type="#pers">ascoltare</seg></l>
-					<l n="4" type="#enj">accanto al fuoco il <seg type="#onom">borbottio</seg> <seg type="#emph">(sirena!)</seg></l>
-					<l n="5">di qualcosa che <seg type="#onom">bolle</seg>, ci <seg type="#pers">chiede</seg>:</l>
-					<l n="6" type="#emph">"Cos'è che tiene insieme e fa che non si perda oltre confine</l>
-					<l n="7" type="#emph">questo cosmo di pasta e di verdura,</l> 
-					<l n="8" type="#emph">questo battesimo di acqua e olio, roteante?</l>
-					<l n="9" type="#emph">O è qualcosa che non si vede? O è la pentola e basta?</l>
+					<l xml:id="1"><seg ana="#met">Cenerentola che non piange</seg>, l'ultimo Canto,</l>
+					<l xml:id="2">- il <num ref="#n21">Ventunesimo</num> - rimasto</l>
+					<l xml:id="3"><seg ana="#pers">tutto solo</seg> in <seg ana="#obj">cucina</seg> ad <seg ana="#pers">ascoltare</seg></l>
+					<l xml:id="4">accanto al <seg ana="#obj">fuoco</seg> il <seg ana="#onom">borbottio</seg> <seg ana="#inter">(sirena!)</seg></l>
+					<l xml:id="5">di qualcosa che <seg ana="#onom">bolle</seg>, ci <seg ana="#pers">chiede</seg>:</l>
+					<l xml:id="6">"Cos'è che tiene insieme e fa che non si perda oltre confine</l>
+					<l xml:id="7">questo <seg ana="#met">cosmo di <seg ana="#obj">pasta</seg> e di <seg ana="#obj">verdura</seg></seg>,</l> 
+					<l xml:id="8">questo <seg ana="#met">battesimo di <seg ana="#obj">acqua</seg> e <seg ana="#obj">olio</seg>, roteante</seg>?</l>
+					<l xml:id="9">O è qualcosa che non si vede? O è la <seg ana="#obj">pentola</seg> e basta?</l>
 				</lg>
 				<lg type="stanza">
-					<l n="10"> <seg type="#pers">Cantano</seg>, risospinte, le cipolle,</l> 
-					<l n="11">- è così che cantano le figlie del sole,</l> 
-					<l n="12"> occhi rotondi, occhi d'oro, nel chiuso di una stanza -</l> 
-					<l n="13" type="#enj">e le patate e le carote <seg type="#pers">cantano</seg>, dal fondo</l> 
-					<l n="14">di vortici bui arancio, e dalle conchiglie esce un suono,</l> 
-					<l n="15">stridono, ancora, prima di <seg type="#pers">convincersi</seg></l> 
-					<l n="16" type="#enj">anche loro, alla prova</l> 
-					<l n="17">della danza. Assomiglia,</l> 
-					<l n="18">questo mondo, se è un mondo,</l> 
-					<l n="19">al fuoco che lo muove.</l> 
+					<l xml:id="10"> <seg ana="#pers">Cantano</seg>, risospinte, <seg ana="#obj">le cipolle</seg>,</l> 
+					<l xml:id="11">- è così che cantano <seg ana="#met">le figlie del sole</seg>,</l> 
+					<l xml:id="12"> occhi rotondi, <seg ana="#met">occhi d'oro</seg>, nel chiuso di una stanza -</l> 
+					<l xml:id="13">e <seg ana="#obj">le patate</seg> e le <seg ana="#obj">carote</seg> <seg ana="#pers">cantano</seg>, dal fondo</l> 
+					<l xml:id="14">di <seg ana="#met">vortici bui arancio</seg>, e dalle <seg ana="#obj">conchiglie</seg> esce un suono,</l> 
+					<l xml:id="15"><seg ana="#pers">stridono</seg>, ancora, prima di <seg ana="#pers">convincersi</seg></l> 
+					<l xml:id="16">anche loro, alla prova</l> 
+					<l xml:id="17">della <seg ana="#obj">danza</seg>. Assomiglia,</l> 
+					<l xml:id="18">questo mondo, <seg ana="#inter">se è un mondo</seg>,</l> 
+					<l xml:id="19">al fuoco che lo muove.</l> 
 				</lg>
 				<lg type="stanza">	
-					<l n="20">Il Ventunesimo - il Canto del Cuoco - </l>
-					<l n="21" type="#pers">ha visto abbastanza, ride.</l> 
-					<l n="22" type="#pers">Ridono anche gli altri Canti, con lui.</l> 
-					<l n="23">Piova, sull'arido.</l> 
+					<l xml:id="20">Il <num ref="#n21">Ventunesimo</num> - il Canto del <seg ana="#obj">Cuoco</seg> - </l>
+					<l xml:id="21"><seg ana="#pers">ha visto</seg> abbastanza, <seg ana="#pers">ride</seg>.</l> 
+					<l xml:id="22"><seg ana="#pers">Ridono</seg> anche gli altri Canti, con lui.</l> 
+					<l xml:id="23"><seg ana="#inter">Piova</seg>, sull'arido.</l> 
 				</lg>
 			</lg>
-			<interpGrp resp="#GL" type="espressioni_della_oralità">
-				<interp xml:id="enj">enjambement</interp>
-				<interp xml:id="pers">personificazione</interp>
-				<interp xml:id="emph">enfasi</interp>
-				<interp xml:id="onom">onomatopea</interp>	
+			<spanGrp resp="#GL" type="enj">
+				<span from="#2" to="#4">enjambement</span>
+				<span from="#13" to="#14">enjambement</span>
+				<span from="#16" to="#17">enjambement</span>
+			</spanGrp>
+			<interpGrp type="concreto">
+			<interp xml:id="obj">elemento concreto</interp>
 			</interpGrp>
+			<interpGrp resp="#GL" type="astratto">
+				<interpGrp resp="#GL" type="espressioni_della_oralità">
+					<interp xml:id="inter">interiezione</interp>
+					<interp xml:id="onom">onomatopea</interp>
+				</interpGrp>
+				<interpGrp resp="#GL" type="altre_figure_retoriche">
+					<interp xml:id="pers">personificazione</interp>
+					<interp xml:id="met">metafora</interp>
+				</interpGrp>
+			</interpGrp>
+			<span from="#6" to="#9" sameAs="#inter">domanda</span>
+
+
 		</body>
 	</text>	
 </TEI>

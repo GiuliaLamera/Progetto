@@ -2,38 +2,42 @@
 <metadata
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:dc="http://purl.org/dc/elements/1.1/"
-xmlns:dcterms="http://purl.org/dc/terms/">
-
-<!-- dati dell'oggetto della risorsa fisica -->
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:ms="http://example.org/MySchema/"
+xsi:schemaLocation="http://example.org/MySchema/ MySchema.xsd"> 
 <dc:title>Vita di Voltaire</dc:title>
-<dc:creator>Emilio Tadini</dc:creator>
-<dc:creator xsi:type="dcterms:URI">http://viaf.org/viaf/96275786</dc:creator>
-<dc:creator xsi:type="dcterms:ULAN">http://vocab.getty.edu/page/ulan/500082784
- </dc:creator>
+<dc:creator>Tadini,Emilio</dc:creator>
+<dcterms:creator xsi:type="dcterms:URI" ms:autorità="ms:VIAF">http://viaf.org/viaf/96275786</dcterms:creator>
+<dcterms:creator xsi:type="dcterms:URI" ms:autorità="ms:ULAN">http://vocab.getty.edu/page/ulan/500082784</dcterms:creator>
+<dc:subject>Arte contemporanea</dc:subject>
+<dcterms:subject xsi:type="dcterms:URI" ms:autorità="ms:AAT">http://vocab.getty.edu/page/aat/300264737"</dcterms:subject>
+<dc:subject xsi:type="dcterms:UDC">75.037</dc:subject> <!--Tra Espressionismo e arte astratta-->
 <dc:subject>Pop Art</dc:subject>
-<dc:subject xsi:type="dcterms:AAT">http://vocab.getty.edu/page/aat/300022205"</dc:subject>
+<dcterms:subject xsi:type="dcterms:URI" ms:autorità="ms:AAT">http://vocab.getty.edu/page/aat/300022205</dcterms:subject>
 <dc:subject>Surrealismo</dc:subject>
-<dc:subject xsi:type="dcterms:AAT">http://vocab.getty.edu/page/aat/300021512</dc:subject>
-<dc:description>Si tratta di un lavoro inserito nel ciclo pittorico Vita di Voltaire, è molto vicino al linguaggio della Pop Art ed è chiaramente il risultato di un assemblaggio “atemporale” di cose, abiti del 700 contemporanei di Voltaire, divise della Seconda guerra mondiale degli anni 40, casco da football, oggetti di design, come la sedia Tonet n° 14 del 1859 e la lampada Cirene di Vico Magistretti del 1960, edifici che evocano le case francesi e dietro tutto ciò l’unico essere vivente presente con il suo corpo: un rinoceronte. Scriveva a riguardo Tadini: "La vita di Voltaire, questa specie di radice illuminista del mondo, nel secolo dei lumi spenti. Non riesco mai a pensare a una cosa che non sia confrontata con il suo opposto. (...) questa ipertrofica elaborazione della forma che magicamente si risolve nel produrre emozioni. (...). La vita di Voltaire è la possibilità di fare qualche luce su qualche spazio che si dà comunque". In quest'opera tante simbologie e allegorie legate alla luce, alla tecnologia con spunti di riflessione, ai cambiamenti sociali e al pensiero.</dc:description>
-<dc:date>1968</dc:date>
-<dc:type>Dipinto</dc:type>
-<dc:type xsi:type="DCMIType">Image</dc:type>
-<dc:type xsi:type="UDC">75</dc:type>
-<dc:format>Acrilico</dc:format>
-<dc:format xsi:type="dcterms:AAT">http://vocab.getty.edu/page/aat/300014426</dc:format>
-<dcterms:extent>130X160cm</dcterms:extent>
-<dcterms:medium>Tela</dcterms:medium>
-<dcterms:medium xsi:type="dcterms:AAT">http://vocab.getty.edu/page/aat/300014078</dcterms:medium>
-<dcterms:isPartOf>il ciclo pittorico "Vita di Voltaire"</dcterms:isPartOf>
-<!--dati della risorsa digitale-->
+<dcterms:subject xsi:type="dcterms:URI" ms:autorità="ms:AAT">http://vocab.getty.edu/page/aat/300021512</dcterms:subject>
+<dc:description>Si tratta di un lavoro inserito nel ciclo pittorico Vita di Voltaire, è molto vicino al linguaggio della Pop Art ed è chiaramente il risultato di un assemblaggio “atemporale” di cose, abiti del 700 contemporanei di Voltaire, divise della Seconda guerra mondiale degli anni 40, casco da football, oggetti di design, come la sedia Tonet n° 14 del 1859 e la lampada Cirene di Vico Magistretti del 1960, edifici che evocano le case francesi e dietro tutto ciò l’unico essere vivente presente con il suo corpo: un rinoceronte. Scriveva a riguardo Tadini: "La vita di Voltaire, questa specie di radice illuminista del mondo, nel secolo dei lumi spenti. Non riesco mai a pensare a una cosa che non sia confrontata con il suo opposto. (...) questa ipertrofica elaborazione della forma che magicamente si risolve nel produrre emozioni. (...). La vita di Voltaire è la possibilità di fare qualche luce su qualche spazio che si dà comunque". In quest'opera tante simbologie e allegorie legate alla luce, alla tecnologia con spunti di riflessione, ai cambiamenti sociali e al pensiero.(Museo City)</dc:description>
 <dc:publisher>Spazio Tadini</dc:publisher>
-<dc:publisher xsi:type="dcterms:URI">https://spaziotadini.com/</dc:publisher>
-<dc:date>2020</dc:date>
-<dc:type>Image/jpeg</dc:type>
-<dc:format>JPEG</dc:format>
-<dc:contributor>Giulia Lamera</dc:contributor>
-<dc:identifier xsi:type="dcterms:URI">https://www.museocity.it/opere/2022/vita-di-voltaire</dc:identifier>
-<dc:source>Vita di Voltaire, Spazio Tadini Casa Museo, Milano</dc:source>
-<dc:source xsi:type="dcterms:URI">https://maps.app.goo.gl/TrGwpSGKxaVr1ocR9</dc:source>
+<dcterms:publisher xsi:type="dcterms:URI">https://spaziotadini.com/</dcterms:publisher>
+<dc:date>1968</dc:date>
+<dc:date ms:versione="ms:digitale">2020</dc:date>
+<dc:type xsi:type="dcterms:DCMIType">StillImage</dc:type>
+<dc:format>Acrilico</dc:format>
+<dcterms:format xsi:type="dcterms:URI" ms:autorità="ms:AAT">http://vocab.getty.edu/page/aat/300014426</dcterms:format>
+<dcterms:format xsi:type="dcterms:IMT" ms:versione="ms:digitale">Image/jpeg</dcterms:format>
+<dcterms:extent>130X160cm</dcterms:extent>
+<dcterms:extent ms:versione="ms:digitale">1.26 MB</dcterms:extent>
+<dcterms:medium>Tela</dcterms:medium>
+<dcterms:medium xsi:type="dcterms:URI" ms:autorità="ms:AAT">http://vocab.getty.edu/page/aat/300014078</dcterms:medium>
+<dc:coverage  ms:ref="https://maps.app.goo.gl/TrGwpSGKxaVr1ocR9">Spazio Tadini Casa Museo, Milano</dc:coverage>
+<dc:coverage ms:versione="ms:digitale" xsi:type="dcterms:URI">https://spaziotadini.com/</dc:coverage>
+<dcterms:isPartOf>il ciclo pittorico "Vita di Voltaire"</dcterms:isPartOf>
+<dcterms:isPartOf>Mostra temporanea "Museo Segreto 2023"</dcterms:isPartOf>
+<dcterms:mediator ms:ref="https://www.museocity.it/">Museo City</dcterms:mediator>
+<dcterms:temporal xsi:type="dcterms:Period">name=Il Settecento; start=1700; end=1799;</dcterms:temporal>
+<dcterms:temporal xsi:type="dcterms:Period">name=Seconda guerra mondiale, start=1940; end=1945;</dcterms:temporal>
+<dcterms:temporal>1859</dcterms:temporal>
+<dcterms:temporal>1960</dcterms:temporal>
 <dc:rights>Licenza riservata</dc:rights>
+<dcterms:rightsHolder>Spazio Tadini</dcterms:rightsHolder>
 </metadata>

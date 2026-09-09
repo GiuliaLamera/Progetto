@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns="http://example.org/MySchema/"
+elementFormDefault="qualified">
+
+  <xs:element name="ref" type="xs:string"/>
+  
+  <xs:attributeGroup name="tipi_di_versione">
+    <xs:attribute name="cartacea" type="xs:string"/>
+    <xs:attribute name="ricaricamento" type="xs:string"/>
+    <xs:attribute name="digitale" type="xs:string"/>
+  </xs:attributeGroup>  
+
+  <xs:element name="versione" type="xs:string">
+    <xs:complexType>
+      <xs:attributeGroup ref="tipi_di_versione">  
+    </xs:complexType>   
+  </xs:element>
+
+  <xs:attributeGroup name="tipi_di_controlli_autorità">
+    <xs:attribute name="ULAN" type="xs:string"/>
+    <xs:attribute name="VIAF" type="xs:string"/>
+    <xs:attribute name="SBN" type="xs:string"/>
+    <xs:attribute name="ISNI" type="xs:string"/>
+    <xs:attribute name="GEONAMES" type="xs:string"/>
+    <xs:attribute name="AAT" type="xs:string"/>
+  </xs:attributeGroup>
+
+
+  <xs:element name="autorità" type="xs:string">
+    <xs:complexType>
+      <xs:attributeGroup ref="tipi_di_controlli_autorità"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
+
+

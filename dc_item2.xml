@@ -3,36 +3,33 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:dc="http://purl.org/dc/elements/1.1/"
 xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:mp="http://ilmioprogetto/schema">
-<dc:title>Profughi, Canto XXI</dc:title>
+xmlns:ms="http://example.org/MySchema/"
+xsi:schemaLocation="http://example.org/MySchema/ MySchema.xsd">
+<dc:title>Profughi, XXI</dc:title>
 <dc:creator>Tadini, Emilio</dc:creator>
-<dc:creator xsi:type="dcterms:URI">http://viaf.org/viaf/96275786</dc:creator>
-<dc:creator xsi:type="dcterms:ULAN">http://vocab.getty.edu/page/ulan/500082784</dc:creator>
-<dc:creator xsi:type="dcterms:SBN">http://id.sbn.it/bid/CFIV037234</dc:creator>
-<dc:publisher>Milano: Garzanti</dc:publisher>
+<dcterms:creator xsi:type="dcterms:URI" ms:autorità="ms:VIAF">http://viaf.org/viaf/96275786</dcterms:creator>
+<dcterms:creator xsi:type="dcterms:URI" ms:autorità="ms:ULAN">http://vocab.getty.edu/page/ulan/500082784</dcterms:creator>
 <dc:subject>Poesia italiana del Novecento</dc:subject>
-<dc:subject xsi:type="DDC">851.91</dc:subject>
-<dc:description>Poesia divisa in 3 stanze in verso libero</dc:description>
-<dcterms:abstract>Il 21° canto conclude il poemetto "Profughi", contenuto in "L'insieme delle cose", ed edito per Garzanti nel 1991. Il titolo è omonimo a un ciclo pittorico dell'autore, di poco antecedente. Il poema rappresenta una condizione di estraneità e vagabondaggio che sembra contraddistinguere la natura umana. L'ultimo canto si chiude con un'immagine malinconica e gioiosa, dove ogni cosa prende vita: gli oggetti, gli ortaggi della cucina, il canto stesso. Tutto rotea, danza, canta e fluttua come nei trittici di Tadini.</dcterms:abstract>
-<dcterms:tableOfContent></dcterms:tableOfContent>
+<dcterms:subject xsi:type="dcterms:DDC">851.91</dcterms:subject>
+<dc:subject>Danza</dc:subject>
+<dcterms:subject xsi:type="dcterms:LCSH">http://id.loc.gov/authorities/subjects/sh85035659</dcterms:subject>
+<dc:subject>Cucina</dc:subject>
+<dcterms:subject xsi:type="dcterms:LCSH">http://id.loc.gov/authorities/subjects/sh2010008400</dcterms:subject>
+<dc:subject>Personificazione in letteratura</dc:subject>
+<dcterms:subject xsi:type="dcterms:LCSH">http://id.loc.gov/authorities/subjects/sh85100138</dcterms:subject>
+<dc:description>Poesia di 3 stanze in verso libero. Il 21° canto conclude il poemetto "Profughi", contenuto in "L'insieme delle cose", ed edito per Garzanti nel 1991. Il titolo è omonimo a un ciclo pittorico dell'autore, di poco antecedente. Il poema rappresenta una condizione di estraneità e vagabondaggio che sembra contraddistinguere la natura umana.</dc:description>
+<dcterms:abstract>L'ultimo canto si chiude con un'immagine malinconica e gioiosa, dove ogni cosa prende vita: gli oggetti, gli ortaggi della cucina, il canto stesso. Tutto rotea, danza, canta e fluttua come nei trittici di Tadini.</dcterms:abstract>
+<dc:publisher xsi:type="dcterms:URI">giulialamera.github.io</dc:publisher>
 <dc:contributor>Giulia Lamera</dc:contributor>
-<dc:date>1991</dc:date>
-<dc:date mp:versione= "mp:digitalizzazione" xsi:type="dcterms:W3CDTF">2026-08-24</dc:date> 
-<dc:type xsi:type="DCMIType">Text</dc:type>
-<dc:format>Poesia</dc:format>
-<dc:format mp:versione= "mp:digitalizzazione" xsi:type="dcterms:MIME">application/pdf</dc:format>
-<dcterms:extent>p. 115</dcterms:extent>
-<dcterms:extent mp:versione= "mp:digitalizzazione">39,4kB</dcterms:extent>
-<dc:provenance>Biblioteca Universitaria di Genova</dc:provenance>
-<dc:provenance xsi:type="dcterms:URI">www.geonames.org/3176219</dc:provenance>
-<dc:language>Italiano</dc:language>
-<dc:language xsi:type="ISO639-2">ita</dc:language>
-<dcterms:isPartOf>Collana "Poesia" di Garzanti</dcterms:isPartOf>
-<dcterms:isPartOf>L'insieme delle cose</dcterms:isPartOf>
-<dcterms:isPartOf xsi:type="dcterms:ISBN">88-11-64002-4</dcterms:isPartOf>
-<dcterms:hasFormat>Digitalizzazione in formato PDF</dcterms:hasFormat>
-<dcterms:bibliographicCitation>Tadini, Emilio. "L'insieme delle cose", Garzanti, Milano, 1991, p. 115</dcterms:bibliographicCitation> 
-<dc:rights>Diritti riservati</dc:rights>
-<dcterms:rightsHolder>Garzanti Editore s.p.a</dcterms:rightsHolder>
-
+<dc:date xsi:type="dcterms:W3CDTF">2026-08-24</dc:date> 
+<dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+<dc:format xsi:type="dcterms:IMT">application/pdf</dc:format>
+<dcterms:extent>39,4kB</dcterms:extent>
+<dc:source>Tadini, Emilio, "L'insieme delle cose", Garzanti, Milano, 1991, p. 115, [ISBN:88-11-64002-4]</dc:source> 
+<dcterms:isPartOf>il poemetto "Profughi"</dcterms:isPartOf>
+<dcterms:provenance ms:versione="ms:cartacea">Magazzino Sanguineti/Biblioteca Universitaria di Genova</dcterms:provenance>
+<dcterms:provenance ms:versione="ms:cartacea" xsi:type="dcterms:URI">www.geonames.org/3176219</dcterms:provenance>
+<dc:language xsi:type="dcterms:ISO639-2">ita</dc:language>
+<dc:rights ms:versione="ms:cartacea">Diritti riservati</dc:rights>
+<dcterms:rightsHolder ms:versione="ms:cartacea">Spazio Tadini</dcterms:rightsHolder>
 </metadata>

@@ -2,11 +2,10 @@
 <html>
 
 	<head>
-		<title>Il profilo pittorico di Emilio Tadini | Metadati</title>
-		<link rel="stylesheet" type="text/css" href="style/style_progetto_dh.css"/>
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		
+		<title>Il profilo pittorico di Emilio Tadini | Metadati</title>
+		<link rel="stylesheet" type="text/css" href="style/style_progetto_dh.css"/>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,310 +14,280 @@
 
 	<body>
 		<header>
-			<div class="static">Il profilo pittorico di Emilio Tadini</div>
+			<p class="static">Il profilo pittorico di Emilio Tadini</p>
 		</header>
 <!--Navigazione -->
-	<nav>			
-		
-		<li class="home"><a target="_blank" href="index.html" class="button">Homepage</a></li>
-		<li class="home"><a target="_blank" href="catalogo_progetto.html" class="button">Catalogo</a></li>
-		
-		
-		<li class="dropdown">
-		    <a target="_blank" href="#" class="button" style="margin-left: 40px; margin-right: 10px;">Dipinti</a>
-		    <div class="dropdown-content">
-		        <a target="_blank" href="#">Tela</a>
-		        <a target="_blank" href="#">Trittico</a>
-		        <a target="_blank" href="#">Illustrazione</a>
-		        <a target="_blank" href="#">Architettura</a>
-		        <a target="_blank" href="#">Manifesti</a>
-		    </div>
-		</li>		 
-		
-		<li class="home"><a target="_blank" href="#" class="button">Scritti</a></li>
-		<li class="home"><a target="_blank" href="#" class="button">Video</a></li>
-		<li class="home"><a target="_blank" href="#" class="button">Profilo</a></li>
-		
-	</nav>
-
-	<div class="briciole">
-		<ul class="breadcrumb">
-		  <li><a target="_blank" href="index.html">Homepage</a></li>
-		  <li>Dati</li>
-		</ul>
-	</div>
-
-	<div class="metadati">
-		<div class="icon">
-		<button type="button" class="btn btn-light text-dark" data-bs-toggle="modal" data-bs-target="#myModal5">
-			    <i style="font-size:24px" class="fa">&#xf019;</i>
-			</button>
-			<button type="button" class="btn btn-light text-dark" data-bs-toggle="modal" data-bs-target="#myModal5">
-			    <i style="font-size:24px" class="fa">&#xf1e0;</i>
-			</button>
-		</div>
+		<nav>			
+			
+			<li class="home"><a target="_blank" href="index.html" class="button">Homepage</a></li>
+			<li class="home"><a target="_blank" href="catalogo_progetto.html" class="button">Catalogo</a></li>
+			<li class="dropdown">
+			    <a target="_blank" href="#" class="button" style="margin-left: 40px; margin-right: 10px;">Dipinti</a>
+			    <div class="dropdown-content">
+			        <a target="_blank" href="#">Tele</a>
+			        <a target="_blank" href="#">Trittici</a>
+			        <a target="_blank" href="#">Illustrazioni</a>
+			        <a target="_blank" href="#">Architetture</a>
+			        <a target="_blank" href="#">Manifesti</a>
+			    </div>
+			</li>		 
+			<li class="home"><a target="_blank" href="#" class="button">Scritti</a></li>
+			<li class="home"><a target="_blank" href="#" class="button">Video</a></li>
+			<li class="home"><a target="_blank" href="#" class="button">Profilo</a></li>
+			
+		</nav>
+		<section class="metadati">
+			<div class="icon">
+				<button type="button" class="btn btn-light text-dark" data-bs-toggle="modal" data-bs-target="#myModal5"><i style="font-size:24px" class="fa">&#xf019;</i>
+				</button>
+				<button type="button" class="btn btn-light text-dark" data-bs-toggle="modal" data-bs-target="#myModal5"><i style="font-size:24px" class="fa">&#xf1e0;</i>
+				</button>
+			</div>
 <!--Modal Metadati-->			
-		<div class="modal fade" id="myModal5">
-				   <div class="modal-dialog">
-				     <div class="modal-content">
-
+			<div class="modal fade" id="myModal5">
+				<div class="modal-dialog">
+				    <div class="modal-content">
 				       <!-- Modal Header -->
-				       <div class="modal-header">
-				         <h4 class="modal-title">Scarica metadati</h4>
-				         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-				       </div>
-
+				        <div class="modal-header">
+				         	<h4 class="modal-title">Scarica metadati</h4>
+				         	<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				        </div>
 				       <!-- Modal body -->
 				       <div class="modal-body">
-				          <p><a target="_blank" href="Tabella_metadati.json">JSON</a></p>
-				          <p><a target="_blank" href="Tabella_metadati.csv">CSV</a></p>
-				          <p><a target="_blank" href="Tabella_metadati.html">HTML</a></p>	
+					          <p><a target="_blank" href="Tabella_metadati.json">JSON</a></p>
+					          <p><a target="_blank" href="Tabella_metadati.csv">CSV</a></p>
+					          <p><a target="_blank" href="Tabella_metadati.html">HTML</a></p>	
 			       		</div>
-
 			       <!-- Modal footer -->
-			       <div class="modal-footer">
-			         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
-			       </div>
-			     </div>
+				       <div class="modal-footer">
+				         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+				       </div>
+			     	</div>
 			    </div>   
-			  </div>
+			</div>
 <!--Tabella-->
 			<table>
-			  <tr>
-			  	<th>Item</th>
-			    <th>Tipologia</th>
-			    <th>Autore</th>
-			    <th>Titolo</th>
-			    <th>Data</th>
-			    <th>Tecnica</th>
-			    <th>Collocazione</th>
-			  </tr>
-			  <tr>
-			    <td>1</td>
-			    <td>Tela</td>
-			    <td>Tadini, Emilio</td>
-			    <td>Saggio sul nazismo</td>
-			    <td>1960</td>
-			    <td>Olio su tela</td>
-			    <td>Collezione privata</td>
-			  </tr>
-			  <tr>
-			  	<td>2</td>
-			  	<td>Tela</td>
-			  	<td>Tadini, Emilio</td>
-			  	<td><a target="_blank" href="item1.html">Vita di Voltaire</a></td>
-			  	<td>1967</td>
-			  	<td>Acrilico su tela</td>
-			  	<td>Spazio Tadini<i class="fa fa-external-link"></i></td>
-			  </tr>
-			    <td>3</td>
-			    <td>Tela</td>
-			    <td>Tadini, Emilio</td>
-			    <td>Viaggio in Italia</td>
-			    <td>1970</td>
-			    <td>Acrilico su tela</td>
-			    <td>Fondazione Marconi<i class="fa fa-external-link"></i></td>
-			  </tr>
-			  <tr>
-			  	<td>4</td>
-			  	<td>Tela</td>
-			  	<td>Tadini, Emilio</td>
-			  	<td>Paesaggio di Malevič</td>
-			  	<td>1972</td>
-			  	<td>Acrilico su tela</td>
-			  	<td>Museo della Città <br> Polo Culturale Bottini dell’Olio</td>
-			  </tr>
-			  <tr>
-			  	<td>5</td>
-			  	<td>Trittico</td>
-			  	<td>Tadini, Emilio</td>
-			  	<td>Il ballo dei filosofi</td>
-			  	<td>1996</td>
-			  	<td>Acrilico su tela</td>
-			  	<td>Spazio Tadini</td>		
-			  </tr>
-			  <tr>
-			  	<td>6</td>
-			  	<td>Tela</td>
-			  	<td>Tadini, Emilio</td>
-			  	<td>Profugo</td>
-			  	<td>1988</td>
-			  	<td>Acrilico su tela</td>
-			  	<td>Spazio Tadini</td>
-			  </tr>
-			  <tr>
-			  	<td>7</td>
-			  	<td>Trittico</td>
-			  	<td>Tadini, Emilio</td>
-			  	<td><a target="_blank" href="item3.html">Insomnia Night</a></td>
-			  	<td>1989</td>
-			  	<td>Acrilico su tela</td>
-			  	<td>Fondazione Marconi</td>
-			  </tr>
-			  <tr>
-			  	<td>8</td>
-			  	<td>Trittico</td>
-			  	<td>Tadini, Emilio</td>
-			  	<td>Fiaba</td>
-			  	<td>1999</td>
-			  	<td>Acrilico su tela</td>
-			  	<td>Spazio Tadini</td>
-			  </tr>
-			  <tr>
-			  	<td>9</td>
-			  	<td>Tela</td>
-			  	<td>Tadini, Emilio</td>
-			  	<td>Allegoria in memoria di Emilio Lancia e Angelica Riccardi</td>
-			  	<td>1988</td>
-			  	<td>Acrilico su tela</td>
-			  	<td>Policlinico di Milano</td>
-			  </tr>			
-			  <tr>
-			  	<td>10</td>
-			  	<td>Saggio</td>
-			  	<td>Tadini, Emilio</td>
-			  	<td><a target="_blank" href="item4.html">L'occhio della pittura</a></td>
-			  	<td>1995</td>
-			  	<td>Stampa</td>
-			  	<td>Biblioteca Universitaria di Genova [e altre sedi]</td>
-			  </tr>	
-			  <tr>
-			  	<td>11</td>
-			  	<td>Architettura</td>
-			  	<td>Tadini, Emilio; Pardi, Gianfranco; Colombo, Gianni</td>
-			  	<td>Borgotondo</td>
-			  	<td>1979</td>
-			  	<td></td>
-			  	<td>Mirandola (Modena)</td>
-			  </tr>	
-			  <tr>
-			  	<td>12</td>
-			  	<td>Architettura</td>
-			  	<td>Tadini, Emilio; Sigismondi, Roberto </td>
-			  	<td>Orologio della Concordia</td>
-			  	<td>1997</td>
-			  	<td></td>
-			  	<td>Cantieri Culturali alla Zisa (Palermo)</td>
-			  </tr>	
-			  <tr>
-			  	<td>13</td>
-			  	<td>Illustrazione</td>
-			  	<td>Tadini, Emilio</td>
-			  	<td>Illustrazioni in "Il volo degli uccelli" di Italo Calvino</td>
-			  	<td>1967</td>
-			  	<td>Inchiostro in bianco e nero <br>[Penna rossa per i bozzetti]</td>
-			  	<td>Collezione privata</td>
-			  </tr>	
-			  <tr>
-			  	<td>14</td>
-			  	<td>Illustrazione</td>
-			  	<td>Tadini, Emilio</td>
-			  	<td>Illustrazioni in "Paradiso perduto" di John Milton</td>
-			  	<td>1992</td>
-			  	<td>Matita su carta</td>
-			  	<td>Spazio Tadini</td>
-			  </tr>	
-			  <tr>
-			  	<td>15</td>
-			  	<td>Trittico</td>
-			  	<td>Tadini, Emilio</td>
-			  	<td>L'occhio della pittura</td>
-			  	<td>1978</td>
-			  	<td>Acrilico su tela</td>
-			  	<td>Collezione privata</td>
-			  </tr>	
-			  <tr>
-			  	<td>16</td>
-			  	<td>Video</td>
-			  	<td></td>
-			  	<td><a target="_blank" href="item5.html">Lezioni d'autore|Emilio Tadini</a></td>
-			  	<td>2001</td>
-			  	<td>Digitale</td>
-			  	<td>Università Telematica Uninettuno</td>
-			  </tr>
-			  <tr>
-			  	<td>17</td>
-			  	<td>Trittico</td>
-			  	<td>Tadini, Emilio</td>
-			  	<td>Corridore notturno</td>
-			  	<td>1989</td>
-			  	<td>Acrilico su tela</td>
-			  	<td>Fondazione Marconi</td>
-			  </tr>	
-			  <tr>
-			  	<td>18</td>
-			  	<td>Tela</td>
-			  	<td>Tadini, Emilio</td>
-			  	<td>Archeologia</td>
-			  	<td>1979</td>
-			  	<td>Acrilico su tela</td>
-			  	<td>Fondazione Marconi</td>
-			  </tr>	
-			  <tr>
-			  	<td>19</td>
-			  	<td>Tela</td>
-			  	<td>Tadini, Emilio</td>
-			  	<td>Città italiana</td>
-			  	<td>1988</td>
-			  	<td>Acrilico su tela</td>
-			  	<td>Fondazione Marconi</td>
-			  </tr>	
-			  <tr>
-			  	<td>20</td>
-			  	<td>Video</td>
-			  	<td></td>
-			  	<td>Francesco Tadini legge da <i>L'insieme delle cose di Emilio Tadini</i></td>
-			  	<td>2012-04-09</td>
-			  	<td>Digitale</td>
-			  	<td>YouTube</td>
-			  </tr>	
-			 </table>
+				  <tr>
+				  	<th>Item</th>
+				    <th>Tipologia</th>
+				    <th>Autore</th>
+				    <th>Titolo</th>
+				    <th>Data</th>
+				    <th>Tecnica/Materiale</th>
+				    <th>Collocazione</th>
+				  </tr>
+				  <tr>
+				  	<td>1</td>
+				  	<td>Tela</td>
+				  	<td>Tadini, Emilio</td>
+				  	<td><a target="_blank" href="item1.html">Vita di Voltaire</a></td>
+				  	<td>1967</td>
+				  	<td>Acrilico su tela</td>
+				  	<td>Spazio Tadini<i class="fa fa-external-link"></i></td>
+				  </tr>
+				  <tr>
+				    <td>2</td>
+				    <td>Scritto</td>
+				    <td>Tadini, Emilio</td>
+				    <td>L'insieme delle cose</td>
+				    <td>1991</td>
+				    <td>Stampa</td>
+				    <td>Biblioteca Universitaria di Genova [e altre sedi]</td>
+				  </tr>
+				    <td>3</td>
+				    <td>Tela</td>
+				    <td>Tadini, Emilio</td>
+				    <td>Viaggio in Italia</td>
+				    <td>1970</td>
+				    <td>Acrilico su tela</td>
+				    <td>Fondazione Marconi<i class="fa fa-external-link"></i></td>
+				  </tr>
+				  <tr>
+				  	<td>4</td>
+				  	<td>Tela</td>
+				  	<td>Tadini, Emilio</td>
+				  	<td>Paesaggio di Malevič</td>
+				  	<td>1972</td>
+				  	<td>Acrilico su tela</td>
+				  	<td>Museo della Città <br> Polo Culturale Bottini dell’Olio</td>
+				  </tr>
+				  <tr>
+				  	<td>5</td>
+				  	<td>Trittico</td>
+				  	<td>Tadini, Emilio</td>
+				  	<td>Il ballo dei filosofi</td>
+				  	<td>1996</td>
+				  	<td>Acrilico su tela</td>
+				  	<td>Spazio Tadini</td>		
+				  </tr>
+				  <tr>
+				  	<td>6</td>
+				  	<td>Tela</td>
+				  	<td>Tadini, Emilio</td>
+				  	<td>Profugo</td>
+				  	<td>1988</td>
+				  	<td>Acrilico su tela</td>
+				  	<td>Spazio Tadini</td>
+				  </tr>
+				  <tr>
+				  	<td>7</td>
+				  	<td>Trittico</td>
+				  	<td>Tadini, Emilio</td>
+				  	<td><a target="_blank" href="item3.html">Insomnia Night</a></td>
+				  	<td>1989</td>
+				  	<td>Acrilico su tela</td>
+				  	<td>Fondazione Marconi</td>
+				  </tr>
+				  <tr>
+				  	<td>8</td>
+				  	<td>Trittico</td>
+				  	<td>Tadini, Emilio</td>
+				  	<td>Fiaba</td>
+				  	<td>1999</td>
+				  	<td>Acrilico su tela</td>
+				  	<td>Spazio Tadini</td>
+				  </tr>
+				  <tr>
+				  	<td>9</td>
+				  	<td>Tela</td>
+				  	<td>Tadini, Emilio</td>
+				  	<td>Allegoria in memoria di Emilio Lancia e Angelica Riccardi</td>
+				  	<td>1988</td>
+				  	<td>Acrilico su tela</td>
+				  	<td>Policlinico di Milano</td>
+				  </tr>			
+				  <tr>
+				  	<td>10</td>
+				  	<td>Scritto</td>
+				  	<td>Tadini, Emilio</td>
+				  	<td><a target="_blank" href="item4.html">L'occhio della pittura</a></td>
+				  	<td>1995</td>
+				  	<td>Stampa</td>
+				  	<td>Biblioteca Universitaria di Genova [e altre sedi]</td>
+				  </tr>	
+				  <tr>
+				  	<td>11</td>
+				  	<td>Architettura</td>
+				  	<td>Tadini, Emilio; Pardi, Gianfranco; Colombo, Gianni</td>
+				  	<td>Borgotondo</td>
+				  	<td>1979</td>
+				  	<td>Calcestruzzo, ferro zincato, mattoni</td>
+				  	<td>Mirandola (Modena)</td>
+				  </tr>	
+				  <tr>
+				  	<td>12</td>
+				  	<td>Architettura</td>
+				  	<td>Tadini, Emilio; Sigismondi, Roberto </td>
+				  	<td>Torre del Tempo</td>
+				  	<td>1997</td>
+				  	<td>Ferro policromo</td>
+				  	<td>Cantieri Culturali alla Zisa (Palermo)</td>
+				  </tr>	
+				  <tr>
+				  	<td>13</td>
+				  	<td>Illustrazione</td>
+				  	<td>Tadini, Emilio</td>
+				  	<td>Illustrazioni in "Il volo degli uccelli" di Italo Calvino</td>
+				  	<td>1967</td>
+				  	<td>Inchiostro in bianco e nero <br>[Penna rossa per i bozzetti]</td>
+				  	<td>Collezione privata</td>
+				  </tr>	
+				  <tr>
+				  	<td>14</td>
+				  	<td>Illustrazione</td>
+				  	<td>Tadini, Emilio</td>
+				  	<td>Illustrazioni in "Paradiso perduto" di John Milton</td>
+				  	<td>1992</td>
+				  	<td>Matita su carta</td>
+				  	<td>Spazio Tadini</td>
+				  </tr>	
+				  <tr>
+				  	<td>15</td>
+				  	<td>Trittico</td>
+				  	<td>Tadini, Emilio</td>
+				  	<td>L'occhio della pittura</td>
+				  	<td>1978</td>
+				  	<td>Acrilico su tela</td>
+				  	<td>Collezione privata</td>
+				  </tr>	
+				  <tr>
+				  	<td>16</td>
+				  	<td>Video</td>
+				  	<td></td>
+				  	<td><a target="_blank" href="item5.html">Lezioni d'autore|Emilio Tadini</a></td>
+				  	<td>2001</td>
+				  	<td>Digitale</td>
+				  	<td>Università Telematica Uninettuno</td>
+				  </tr>
+				  <tr>
+				  	<td>17</td>
+				  	<td>Trittico</td>
+				  	<td>Tadini, Emilio</td>
+				  	<td>Corridore notturno</td>
+				  	<td>1989</td>
+				  	<td>Acrilico su tela</td>
+				  	<td>Fondazione Marconi</td>
+				  </tr>	
+				  <tr>
+				  	<td>18</td>
+				  	<td>Tela</td>
+				  	<td>Tadini, Emilio</td>
+				  	<td>Archeologia</td>
+				  	<td>1979</td>
+				  	<td>Acrilico su tela</td>
+				  	<td>Fondazione Marconi</td>
+				  </tr>	
+				  <tr>
+				  	<td>19</td>
+				  	<td>Tela</td>
+				  	<td>Tadini, Emilio</td>
+				  	<td>Città italiana</td>
+				  	<td>1988</td>
+				  	<td>Acrilico su tela</td>
+				  	<td>Fondazione Marconi</td>
+				  </tr>	
+				  <tr>
+				  	<td>20</td>
+				  	<td>Video</td>
+				  	<td></td>
+				  	<td>Francesco Tadini legge da <i>L'insieme delle cose</i> di Emilio Tadini</td>
+				  	<td>2012</td>
+				  	<td>Digitale</td>
+				  	<td>YouTube</td>
+				  </tr>	
+			</table>
 
-	</div>
+	</section>
 
+	<footer style="margin-left:200px">
+		<div class="container1" style="padding: 16px 16px;">
+			<p><a type="button" class="btn btn-light text-dark" href="#il_progetto" style="font-size: small;">About</a></p>	
+			<p><a target="_blank" href="Metadati.html" type="button" class="btn btn-light text-dark" style="font-size: small;">Dati<i class="fa fa-folder-open-o"></i></a></p>
+			<p><a type="button" class="btn btn-light text-dark" style="font-size: small;">Licenze</a></p>
+			<p><a type="button" class="btn btn-light text-dark" data-bs-toggle="modal" data-bs-target="#myModal4" style="font-size: small;">Crediti</a></p>
 
-	<footer>
-		<div class="container1" style="padding: 16px 16px; margin-left: 200px;">
-
-			<p><a target="_blank" href="Metadati.html" type="button" class="btn btn-light text-dark" style="font-size: small;">
-			          Dati<i class="fa fa-folder-open-o"></i>
-			</a></p>
-			<p><a type="button" class="btn btn-light text-dark" style="font-size: small;">
-			          Contatti
-			</a></p>	
-			<p><a type="button" class="btn btn-light text-dark" style="font-size: small;">
-			          Licenze
-			</a></p>
-			<p><a type="button" class="btn btn-light text-dark" data-bs-toggle="modal" data-bs-target="#myModal4" style="font-size: small;">
-			          Crediti
-			</a></p>
-
-			   <div class="modal fade" id="myModal4">
-			    <div class="modal-dialog">
-			      <div class="modal-content">
-
-			        <!-- Modal Header -->
-			        <div class="modal-header">
-			          <h4 class="modal-title">Crediti</h4>
-			          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-			        </div>
-
+			<div class="modal fade" id="myModal4">
+				<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">Crediti</h4>
+							<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+						</div>
 			        <!-- Modal body -->
-			        <div class="modal-body">
-			        	<p>Gli elementi di questa raccolta sono state prese principalmente da: <br><a target="_blank" href="https://emiliotadini.com/">Emilio Tadini</a><br>Fondazione Marconi<br>Spazio Tadini<br><a target="_blank" href="https://melinascalise.com/">Melina Scalise</a><br>Europeana<br>Wikipedia|Emilio Tadini<br>Youtube|Uninettuno</p>			         
-			        </div>
-
+						<div class="modal-body">
+							<p>Gli items di questa raccolta sono stati presi da: <br><a target="_blank" href="https://emiliotadini.com/">Emilio Tadini</a><br>Fondazione Marconi<br>Spazio Tadini<br><a target="_blank" href="https://melinascalise.com/">Melina Scalise</a><br>Europeana<br>Wikipedia|Emilio Tadini<br>Youtube|Uninettuno</p>
+						</div>
 			        <!-- Modal footer -->
-			        <div class="modal-footer">
-			          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-			        </div>
-			      </div>
-			     </div>   
-			   </div> 					
-		</div>
-				
-		<div>
-			<p style="text-align: center;">© Copyright 2026 by Giulia Lamera</p>
+					    <div class="modal-footer">
+					        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Chiudi</button>
+					    </div>
+				</div>
+			    </div>   
+			</div> 					
 		</div>		
 	</footer>
+	<div>
+		<p class="end"><i class="fa-regular fa-copyright"></i> Copyright 2026/by Giulia Lamera-Università degli studi di Bologna</p>
+	</div>		
 </body>

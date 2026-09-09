@@ -2,34 +2,35 @@
 <metadata
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:dc="http://purl.org/dc/elements/1.1/"
-xmlns:dcterms="http://purl.org/dc/terms/">
-
-<dc:title>L'occhio della pittura</dc:title>
-<dc:creator>Emilio Tadini</dc:creator>
-<dc:creator xsi:type="dcterms:URI">http://viaf.org/viaf/96275786</dc:creator>
-<dc:creator xsi:type="dcterms:ULAN">http://vocab.getty.edu/page/ulan/500082784
-</dc:creator>
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:ms="http://example.org/MySchema/"
+xsi:schemaLocation="http://example.org/MySchema/ MySchema.xsd">
+<dc:title>*L'occhio della pittura / Emilio Tadini</dc:title>
+<dc:creator>Tadini, Emilio</dc:creator>
+<dcterms:creator xsi:type="dcterms:URI" ms:autorità="ms:VIAF">http://viaf.org/viaf/96275786</dcterms:creator>
+<dcterms:creator xsi:type="dcterms:URI" ms:autorità="ms:ULAN">http://vocab.getty.edu/page/ulan/500082784</dcterms:creator>
+<dc:subject>Saggio</dc:subject>
+<dc:subject>Arte moderna</dc:subject>
+<dcterms:subject xsi:type="dcterms:URI" ms:autorità="ms:AAT">http://vocab.getty.edu/page/aat/300264736</dcterms:subject>
+<dc:description>Emilio Tadini affronta cinque capolavori della pittura, assai diversi tra loro, che contengono ed implicano molte altre pitture possibili. In una scrittura che procede musicalmente per rapidi frammenti e variazioni, accumulando con tagliente lucidità sensazioni e giudizi, impressioni e idee, affinità e divergenze, Tadini disegna una fitta rete di relazioni, di continui rimandi: e compone – per chi dipinge come per chi guarda, un’educazione dell’occhio che coinvolge tanto il corpo quanto la mente.</dc:description>
+<dcterms:tableOfContents>L'orchestra dell'Opéra di Degas;La camera da letto di Van Gogh; Le grandi bagnanti di Cézanne; Les Demoiselles d'Avignon di Picasso; Autoritratto con sette dita di Chagall</dcterms:tableOfContents>
 <dc:publisher>Milano: Garzanti</dc:publisher>
-<dc:subject>Pittura</dc:subject>
-<dc:identifier>ISBN:88-11-59856-7</dc:identifier>
-<dc:identifier>IT\ICCU\RAV\0264233</dc:identifier>
-<dcterms:abstract>Emilio Tadini si sofferma su cinque capolavori della pittura, assai diversi tra loro, che contengono ed implicano molte altre pitture possibili, assommano in sé quelle del passato e prefigurano certe del futuro</dcterms:abstract>
-<dcterms:tableOfContents>L'orchestra dell'Opéra di Degas;La camera da letto di Van Gogh; Le Bagnanti di Cézanne; Les Damoiselles d'Avignon di Picasso; L'autoritratto con sette dita di Chagall</dcterms:tableOfContents>
 <dc:date>1995</dc:date>
+<dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+<dc:type xsi:type="dcterms:UDC">82-4</dc:type> <!--Universal Decimal Classification-->
+<dcterms:extent>174 p.</dcterms:extent>
+<dc:identifier>IT\ICCU\RAV\0264233</dc:identifier> 
+<dc:identifier>ISBN:88-11-59856-7</dc:identifier>
 <dc:language>Italiano</dc:language>
-<dc:language xsi:type="ISO639-2">ita</dc:language>
-<dc:type xsi:type="UDC">82-4</dc:type> <!-- Universal Decimal Classification-->
-<dc:type xsi:type="DCMIType">Text</dc:type>
-<dc:format>Saggio</dc:format>
+<dc:language xsi:type="dcterms:ISO639-2">ita</dc:language>
+<dcterms:isPartOf>La collana Garzanti "Saggi blu"</dcterms:isPartOf>
+<dcterms:hasVersion>Tadini, Emilio, L'occhio della pittura, Garzanti, Milano, 1999, [collana Gli elefanti], 174 p., ill.</dcterms:hasVersion>
 <dcterms:spatial>Francia</dcterms:spatial>
-<dcterms:spatial xsi:type="dcterms:URI">www.geonames.org/3017382</dcterms:spatial>
-<dcterms:temporal>1860-1915</dcterms:temporal>
-<dcterms:isPartOf>Saggi blu</dcterms:isPartOf>
-<dcterms:hasVersion>EAN:9788811675525</dcterms:hasVersion>
-<dcterms:extent>174 pp.</dcterms:extent>
-<dc:provenance>Appartenuto a Libreria di Stefano fino al 15 gennaio 1996</dc:provenance>
-<dc:provenance>Biblioteca Universitaria di Genova</dc:provenance>
-<dc:provenance xsi:type="dcterms:URI">www.geonames.org/3176219</dc:provenance>
+<dcterms:spatial xsi:type="dcterms:TGN">http://vocab.getty.edu/page/tgn/1000070</dcterms:spatial>
+<dcterms:temporal xsi:type="dcterms:Period">start=1860; end=1915</dcterms:temporal>
+<dcterms:provenance>Appartenuto a Libreria di Stefano fino al 15 gennaio 1996</dcterms:provenance>
+<dcterms:provenance>Biblioteca Universitaria di Genova</dcterms:provenance>
+<dcterms:provenance xsi:type="dcterms:URI" ms:autorità="ms:GEONAMES">www.geonames.org/3176219</dcterms:provenance>
 <dc:rights>Diritti riservati</dc:rights>
 <dcterms:rightsHolder>Garzanti Editore s.p.a</dcterms:rightsHolder>
 </metadata>

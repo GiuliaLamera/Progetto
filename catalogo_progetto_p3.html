@@ -4,54 +4,43 @@
 	<head>
 		<title>Il profilo pittorico di Emilio Tadini | Catalogo</title>
 		<link rel="stylesheet" type="text/css" href="style/style_progetto_dh.css"/>
-		
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-		
+		<script src="https://kit.fontawesome.com/5eca80ebb3.js"></script>
 	</head>
 
-<body>
+	<body>
 		<header>
-			<div class="static">Il profilo pittorico di Emilio Tadini</div>
+			<h1 class="static" style="margin-top: 0px;">Il profilo pittorico di Emilio Tadini</h1>
 		</header>
-
-		
 	<!--Navigazione -->
-	<nav>			
-		
-		<li class="home"><a target="_blank" href="index.html" class="button">Homepage</a></li>
-		<li class="home"><a target="_blank" href="catalogo_progetto.html" class="button">Catalogo</a></li>
-		
-		
-		<li class="dropdown">
-		    <a target="_blank" href="#" class="button" style="margin-left: 40px; margin-right: 10px;">Dipinti</a>
-		    <div class="dropdown-content">
-		        <a target="_blank" href="#">Tela</a>
-		        <a target="_blank" href="#">Trittico</a>
-		        <a target="_blank" href="#">Illustrazione</a>
-		        <a target="_blank" href="#">Architettura</a>
-		        <a target="_blank" href="#">Manifesti</a>
-		    </div>
-		</li>		 
-		
-		<li class="home"><a target="_blank" href="#" class="button">Scritti</a></li>
-		<li class="home"><a target="_blank" href="#" class="button">Video</a></li>
-		<li class="home"><a target="_blank" href="#" class="button">Profilo</a></li>
-		
-	</nav>
-
-	<div class="briciole">
-		<ul class="breadcrumb">
-		  <li><a target="_blank" href="#">Homepage</a></li>
-		  <li>Catalogo</li>
-		</ul>
-	</div>	
-
-	 <aside class="col_dx">
-		<h1>Naviga nel catalogo</h1>
-			<h2>Filtra per:</h2>
+		<nav>			
+			<li class="home"><a target="_blank" href="index.html" class="button">Homepage</a></li>
+			<li class="home"><a target="_blank" href="catalogo_progetto.html" class="button">Catalogo</a></li>
+			<li class="dropdown">
+			    <a target="_blank" href="#" class="button" style="margin-left: 40px; margin-right: 10px;">Dipinti</a>
+			    <div class="dropdown-content">
+			        <a target="_blank" href="#">Tele</a>
+			        <a target="_blank" href="#">Trittici</a>
+			        <a target="_blank" href="#">Illustrazioni</a>
+			        <a target="_blank" href="#">Architetture</a>
+			        <a target="_blank" href="#">Manifesti</a>
+			    </div>
+			</li>		 
+			<li class="home"><a target="_blank" href="#" class="button">Scritti</a></li>
+			<li class="home"><a target="_blank" href="#" class="button">Video</a></li>
+			<li class="home"><a target="_blank" href="#" class="button">Profilo</a></li>
+		</nav>
+		<section class="briciole">
+			<ul class="breadcrumb">
+			  <li><a target="_blank" href="index.html">Homepage</a></li>
+			  <li>Catalogo</li>
+			</ul>
+		</section>	
+	 	<aside class="col_dx">
+		<h2>Naviga nel catalogo</h2>
+			<h3>Filtra per:</h3>
 				<ul class="aside">
 					<div class="dropdown">
 						<button class="aside">Data</button>
@@ -81,10 +70,10 @@
 								  <span class="checkmark"></span>
 								</label>
 							</div>	
-				</div>
-				<div class="dropdown">	
-					<button class="aside">Collocazione</button>
-						<div class="dropdown-content">
+					</div>
+					<div class="dropdown">	
+						<button class="aside">Collocazione</button>
+							<div class="dropdown-content">
 								<label class="container">Spazio Tadini
 								  <input type="checkbox">
 								  <span class="checkmark"></span>
@@ -101,12 +90,11 @@
 								  <input type="checkbox">
 								  <span class="checkmark"></span>
 								</label>
-						</div>	
-				</div>	
-				
-				<div class="dropdown">			
-					<button class="aside">Corrente pittorica</button>	
-						<div class="dropdown-content">
+							</div>	
+					</div>	
+					<div class="dropdown">			
+						<button class="aside">Corrente pittorica</button>	
+							<div class="dropdown-content">
 								<label class="container">Surrealismo
 								  <input type="checkbox" checked="checked">
 								  <span class="checkmark"></span>
@@ -123,20 +111,16 @@
 								  <input type="checkbox" checked="checked">
 								  <span class="checkmark"></span>
 								</label>
-						</div>
-				</div>
-				<div class="dropdown">			
-					<button class="aside">Tecnica</button>
-						<div class="dropdown-content">
+							</div>
+					</div>
+					<div class="dropdown">			
+						<button class="aside">Tecnica</button>
+							<div class="dropdown-content">
 								<label class="container">Acrilico su tela
 								  <input type="checkbox" checked="checked">
 								  <span class="checkmark"></span>
 								</label>
 								<label class="container">Olio su tela
-								  <input type="checkbox">
-								  <span class="checkmark"></span>
-								</label>
-								<label class="container">Inchiostro su carta
 								  <input type="checkbox">
 								  <span class="checkmark"></span>
 								</label>
@@ -160,83 +144,67 @@
 								  <input type="checkbox">
 								  <span class="checkmark"></span>
 								</label>
+							</div>
+					</div>									
+				</ul>		
+			<h3>Ordina per:</h3>
+				<h4>Ordine alfabetico</h4>
+				<div class="btn_group">
+		  			<button><i class="fa fa-sort-alpha-asc" style="font-size:24px"></i></button>
+		  			<button><i class="fa fa-sort-alpha-desc" style="font-size:24px"></i></button>
+		 		</div>
+				<h4>Ordine cronologico</h4> 
+				<div class="btn_group">
+		  			<button>Crescente</button>
+		  			<button>Decrescente</button>
+				</div>							
+		</aside>
+		<section class="contenitore">
+	<!--Catalogo con cards-->
+			<div class="cards">	
+				<div class="row">
+				 	<div class="column">
+						<div class="card">
+							<div>
+					  			<img src="img/Il_corridore_notturno(dettaglio).jpg" style="width:80%">
+					  		</div>	
+					  		<div>
+					   		<h3><b>Corridore notturno</b></h3>
+					    		<p>Trittico, 1989 </p>
+					  		</div>
 						</div>
-				</div>
-										
-		</ul>		
-	
-
-	<h2>Ordine per:</h2>
-		<p>Ordine alfabetico</p>
-		<div class="btn-group">
-		  <button><i class="fa fa-sort-alpha-asc" style="font-size:24px"></i></button>
-		  <button><i class="fa fa-sort-alpha-desc" style="font-size:24px"></i></button>
-		 </div>
-		  
-		<p>Ordine cronologico</p> 
-		<div class="btn-group">
-		  <button>Crescente</button>
-		  <button>Decrescente</button>
-		</div>
-		
-
-									
-	</aside>
-
-		
-
-<div class="contenitore">
-	
-	<!--Catalogo con cards (da sistemare)-->
-	<div class="cards">	
-		<div class="row">
-		 
-		 	<div class="column">
-				<div class="card">
-					<div>
-			  			<img src="img/Il_corridore_notturno(dettaglio).jpg" style="width:80%">
-			  		</div>	
-			  		<div>
-			   		<h4><b>Corridore notturno</b></h4>
-			    	<p>Trittico, 1989 </p>
-			  		</div>
-				</div>
+					</div>
+					<div class="column">
+					    <div class="card">
+					      <img src="img/Archeologia_De_Chirico.jpg" style="width:100%">
+					      <div>
+					      	<h3><b>Archeologia</b></h3>
+					      		<p>Tela, 1972</p>
+					      </div>
+					    </div>
+					</div>
+					<div class="column">
+					    <div class="card">
+					      <img src="img/Città_italiana.jpg" style="heigh:100%; width: 100%;">
+					  	  <div>
+					    	<h3><b>Città italiana</b></h3>
+					   			<p>Tela, 1988</p>
+					  	  </div>
+					    </div>
+					</div>  
+					<div class="column">
+					    <div class="card">
+					      <iframe width="275" height="215" src="https://www.youtube.com/embed/ntS1j31E9EU?si=yUS0fYDdaqEH9nNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					      <div>
+					      	<h3><b>Francesco Tadini legge da <i>L'insieme delle cose</i> di Emilio Tadini</b></h3>
+					      		<p>Video,2012</p>
+					      </div>
+					    </div>
+					</div>
+				</div>			
 			</div>
-
-			<div class="column">
-			    <div class="card">
-			      <img src="img/Archeologia_De_Chirico.jpg" style="width:100%">
-			      <div>
-			      	<h4><b>Archeologia</b></h4>
-			      	<p>Tela, 1972</p>
-			      </div>
-			    </div>
-			</div>
-
-			<div class="column">
-			    <div class="card">
-			      <img src="img/Città_italiana.jpg" style="heigh:100%; width: 100%;">
-			  	  <div>
-			    	<h4><b>Città italiana</b></h4>
-			   		<p>Tela, 1988</p>
-			  	  </div>
-			    </div>
-			</div>
-			  
-			<div class="column">
-			    <div class="card">
-			      <iframe width="280" height="215" src="https://www.youtube.com/embed/ntS1j31E9EU?si=yUS0fYDdaqEH9nNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-			      <div>
-			      	<h4><b>Francesco Tadini legge da <i>L'insieme delle cose</i> di Emilio Tadini</b></h4>
-			      	<p>Video,2012</p>
-			      </div>
-			    </div>
-			</div></div>			
-	</div>
-
-</div>	
-
-	
+		</section>	
+		<section>
 			<ul class="pagination">
 			  <li><a target="_blank" href="#">&laquo;</a></li>
 			  <li><a target="_blank" href="catalogo_progetto.html">1</a></li>
@@ -244,24 +212,17 @@
 			  <li><a class="active">3</a></li>
 			  <li><a target="_blank" href="#">&raquo;</a></li>
 			</ul>
-		
-
+		</section>
 		<footer  class="s_boot">
-			
 			<ul style="gap: 40px;">
-					<li><a class="AB" href="#">About</a></li>
+					<li><a class="AB" href="index.html#il_progetto">About</a></li>
 					<li><a class="AB" target="_blank" href="Metadati.html">Dati<i class="fa fa-folder-open-o"></i></a></li>
 					<li><a class="AB" href="">Contatti</a></li>
 					<li><a class="AB" href="">Licenze</a></li>
 			</ul>			
-		
 		</footer>
-
-			<div>		
-				<p style="text-align: center;">© Copyright 2026 by Giulia Lamera</p>
-			</div>
-
+		<div class="end">		
+			<p><i class="fa-regular fa-copyright"></i>Copyright 2026/by Giulia Lamera | <a href="#">Alma Mater Studiorum - Università di Bologna</a></p>
+		</div>
 	</body>
-
-
 </html>	
